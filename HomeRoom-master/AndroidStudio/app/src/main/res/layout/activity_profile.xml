@@ -7,10 +7,11 @@
     android:background="@color/Background"
     tools:context=".Profile">
 
+    <!--Profile Picture-->
     <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="415dp"
-        android:layout_height="282dp"
+        android:id="@+id/profile"
+        android:layout_width="411dp"
+        android:layout_height="247dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -18,4 +19,62 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/profile_wagner" />
+
+    <!--Job Title-->
+    <TextView
+        android:id="@+id/JobTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="English Teacher"
+        android:textSize="8pt"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/profile"
+        app:layout_constraintVertical_bias="0.385" />
+
+    <!--Name-->
+    <TextView
+        android:id="@+id/Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mrs.Wagner"
+        android:textColor="@color/Text"
+        android:textSize="12pt"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/profile"
+        app:layout_constraintVertical_bias="0.334" />
+
+    <!--Degree-->
+    <TextView
+        android:id="@+id/Degree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bachelor of Education from UTSA"
+        android:textSize="8pt"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/profile"
+        app:layout_constraintVertical_bias="0.456" />
+
+    <!--School-->
+    <TextView
+        android:id="@+id/School"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Neptune High School"
+        android:textSize="8pt"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.42" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
