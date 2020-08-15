@@ -17,7 +17,7 @@
         android:id="@+id/LogInButton"
         android:layout_width="match_parent"
         android:layout_height="747dp"
-        android:background=""
+        android:background="?android:attr/selectableItemBackground"
         android:text="" />
 
 </RelativeLayout>
