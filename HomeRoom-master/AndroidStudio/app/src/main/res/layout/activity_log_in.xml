@@ -9,7 +9,7 @@
 
     <!--Log In Button-->
     <Button
-        android:id="@+id/button"
+        android:id="@+id/toHomeButton"
         android:layout_width="150dp"
         android:layout_height="40dp"
         android:layout_margin="40dp"
