@@ -92,5 +92,45 @@
         app:layout_constraintVertical_bias="0.026"
         app:srcCompat="@drawable/welcome" />
 
+    <TextView
+        android:id="@+id/upcomingEvents"
+        android:layout_width="369dp"
+        android:layout_height="29dp"
+        android:background="@color/Logo_Roof"
+        android:text="Upcoming Events"
+        android:gravity="center"
+        android:textSize="8pt"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.262" />
 
+
+    <!--
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Time:"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:gravity="center"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Teacher:"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Availability:"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:gravity="center"/>
+        </TableRow>
+        -->
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -10,8 +10,8 @@
     <!--Profile Picture-->
     <ImageView
         android:id="@+id/profile"
-        android:layout_width="411dp"
-        android:layout_height="247dp"
+        android:layout_width="414dp"
+        android:layout_height="228dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
