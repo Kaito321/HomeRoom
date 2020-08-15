@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#008577</color>
-    <color name="colorPrimaryDark">#00574B</color>
-    <color name="colorAccent">#D81B60</color>
+    <color name="Background">#F2CAB3</color>
+    <color name="Button">#F2865E</color>
+    <color name="Link">#8C4A32</color>
+    <color name="Text">#73594F</color>
+    <color name="Apple_Red">#C3505F</color>
+    <color name="Apple_leaf">#90CA62</color>
+    <color name="Logo_Text">#D9856F</color>
+    <color name="Logo_Roof">#927F77</color>
 </resources>
