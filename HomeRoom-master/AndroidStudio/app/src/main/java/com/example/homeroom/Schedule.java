@@ -16,6 +16,6 @@ public class Schedule extends AppCompatActivity {
 
     public void goBack(View view){
         Button backButton;
-        
+
     }
 }
