@@ -8,6 +8,21 @@
     android:background="#FFFFF"
     tools:context=".Schedule">
 
+    <!--Back button to return to home-->
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="56dp"
+        android:layout_height="34dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="B" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+
     <!--Table 1-->
     <TableLayout
         android:layout_width="match_parent"
