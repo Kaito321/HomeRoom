@@ -17,6 +17,8 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        android:background="@color/Button"
+        android:textColor="@color/Text"
         app:layout_constraintVertical_bias="0.728" />
 
     <!--Password Input-->
@@ -74,8 +76,10 @@
         app:layout_constraintVertical_bias="0.55" />
 
     <!--Sign Up Button-->
-    <Button
-        android:id="@+id/button2"
+    <!--Logo-->
+
+    <TextView
+        android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Sign Up"
@@ -83,10 +87,9 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button"
-        app:layout_constraintVertical_bias="0.153" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.766" />
 
-    <!--Logo-->
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="346dp"
@@ -98,5 +101,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.059"
         app:srcCompat="@drawable/homeroom_logo" />
+
+/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
