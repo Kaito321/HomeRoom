@@ -20,7 +20,7 @@ public class Home extends AppCompatActivity {
         String currentDate = DateFormat.getDateInstance(DateFormat.FULL).format(calendar.getTime());
 
         //Referencing TextView from xml/
-        TextView textViewDate = findViewById(R.id.textViewDate)
+        TextView textViewDate = findViewById(R.id.textViewDate);
                 textViewDate.setText(currentDate);
 
 
