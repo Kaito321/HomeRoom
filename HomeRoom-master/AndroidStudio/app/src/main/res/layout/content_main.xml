@@ -19,5 +19,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/homeroom_logo" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
 
