@@ -35,19 +35,6 @@
             app:srcCompat="@drawable/profile_wagner" />
 
 
-        <ScrollView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textAlignment="center">
-
-            <TextView
-                android:id="@+id/emailAddress"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="wagner@neptune.edu"
-                android:textAlignment="center"
-                android:textSize="8pt" />
-        </ScrollView>
         <!--Name-->
         <TextView
             android:id="@+id/Name"
@@ -61,24 +48,42 @@
 
         <!--Contact-->
         <TextView
+            android:id="@+id/JobTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="English Teacher"
+            android:textAlignment="center"
+            android:textSize="8pt" />
+
+        <TextView
+            android:id="@+id/School"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Neptune High School"
+            android:textAlignment="center"
+            android:textSize="8pt" />
+
+        <TextView
+            android:id="@+id/Degree"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bachelor of Education from UTSA"
+            android:textAlignment="center"
+            android:textSize="8pt" />
+
+        <TextView
             android:id="@+id/contact"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Contact"
             android:textColor="@color/Text"
+            android:layout_marginTop="10dp"
             android:textSize="12pt"
             android:textStyle="bold"
             android:textAlignment="center"/>
 
         <!--Job Title-->
-        <TextView
-            android:id="@+id/JobTitle"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="English Teacher"
-            android:textSize="8pt"
-            android:textAlignment="center" />
-    <!--Phone-->
+        <!--Phone-->
         <TextView
             android:id="@+id/phone"
             android:layout_width="match_parent"
@@ -98,13 +103,6 @@
             android:textAlignment="center" />
 
         <!--Office Hours-->
-        <TextView
-            android:id="@+id/hours"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text=" M,W,F from 7-9 am"
-            android:textSize="8pt"
-            android:textAlignment="center" />
 
         <!--Email Address-->
 
@@ -118,6 +116,20 @@
             android:textStyle="bold"
             android:textAlignment="center" />
     <!--Office hours title-->
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center">
+
+            <TextView
+                android:id="@+id/emailAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="wagner@neptune.edu"
+                android:textAlignment="center"
+                android:textSize="8pt" />
+        </ScrollView>
+
         <TextView
             android:id="@+id/officeHours"
             android:layout_width="match_parent"
@@ -128,29 +140,101 @@
             android:textAlignment="center" />
 
         <!--Degree-->
-        <TextView
-            android:id="@+id/Degree"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Bachelor of Education from UTSA"
-            android:textSize="8pt"
-            android:textAlignment="center" />
-    
+
         <!--School-->
-        <TextView
-            android:id="@+id/School"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Neptune High School"
-            android:textSize="8pt"
-            android:textAlignment="center"/>
 
         <!--Log off button-->
+
+        <TextView
+            android:id="@+id/hours"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" M,W,F from 7-9 am"
+            android:textAlignment="center"
+            android:textSize="8pt" />
+
+        <TextView
+            android:id="@+id/dailySchedule"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:background="@color/Text"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="30dp"
+            android:text="Daily Schedule"
+            android:textColor="@color/Button"
+            android:textSize="8pt"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/period1"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:background="@color/Table_Back"
+            android:gravity="center"
+            android:layout_marginLeft="30dp"
+            android:text="English Period 1: 9-10 am"
+            android:textColor="@color/Text"
+            />
+        <TextView
+            android:id="@+id/period2"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:background="@color/Table_Back"
+            android:gravity="center"
+            android:layout_marginLeft="30dp"
+            android:text="English Period 2: 10-11 am"
+            android:textColor="@color/Text"
+            />
+        <TextView
+            android:id="@+id/lunch"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:background="@color/Table_Back"
+            android:gravity="center"
+            android:layout_marginLeft="30dp"
+            android:text="Lunch: 11-12 pm"
+            android:textColor="@color/Text"
+            />
+        <TextView
+            android:id="@+id/computerLab"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:background="@color/Table_Back"
+            android:gravity="center"
+            android:layout_marginLeft="30dp"
+            android:text="Computer Lab: 12-2 pm"
+            android:textColor="@color/Text"
+            />
+        <TextView
+            android:id="@+id/period3"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:background="@color/Table_Back"
+            android:gravity="center"
+            android:layout_marginLeft="30dp"
+            android:text="English Period 3: 2-3 pm"
+            android:textColor="@color/Text"
+            />
+        <TextView
+            android:id="@+id/period4"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:background="@color/Table_Back"
+            android:gravity="center"
+            android:layout_marginLeft="30dp"
+            android:text="English Period 4: 3-4 pm"
+            android:textColor="@color/Text"
+            />
+
         <Button
             android:id="@+id/toLogInButton"
-            android:layout_width="112dp"
-            android:layout_height="29dp"
-            android:layout_margin="40dp"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginBottom="40dp"
             android:background="@drawable/rounded_corners"
             android:text="Log Off"
             android:textColor="@color/Text"
