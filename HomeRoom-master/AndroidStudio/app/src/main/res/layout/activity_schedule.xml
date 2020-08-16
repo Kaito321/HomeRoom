@@ -4,9 +4,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:background="@color/Background"
-    android:layout_marginBottom="90dp">
+    android:layout_height="wrap_content">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -16,13 +14,14 @@
         tools:context=".Schedule">
 
         <!--Back button to return to home-->
+
         <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/backButtonSched"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:clickable="true"
-            android:layout_marginTop="10dp"
             android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:clickable="true"
             app:srcCompat="@drawable/back"
             tools:layout_editor_absoluteX="11dp"
             tools:layout_editor_absoluteY="16dp" />
@@ -35,7 +34,8 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="941dp"
+            android:layout_height="870dp"
+            android:layout_marginTop="60dp"
             android:background="@color/Background"
             android:orientation="vertical">
 
@@ -47,7 +47,7 @@
                 android:layout_marginTop="60dp"
                 android:text="Monday"
                 android:textAlignment="center"
-                android:textSize="12pt"
+                android:textSize="10pt"
                 android:textStyle="bold">
 
             </TextView>
@@ -196,7 +196,7 @@
                 android:layout_marginTop="20dp"
                 android:text="Tuesday"
                 android:textAlignment="center"
-                android:textSize="12pt"
+                android:textSize="10pt"
                 android:textStyle="bold"></TextView>
 
             <TableLayout
@@ -341,7 +341,7 @@
                 android:layout_marginTop="20dp"
                 android:text="Wednesday"
                 android:textAlignment="center"
-                android:textSize="12pt"
+                android:textSize="10pt"
                 android:textStyle="bold"></TextView>
 
             <TableLayout
@@ -486,7 +486,7 @@
                 android:layout_marginTop="20dp"
                 android:text="Thursday"
                 android:textAlignment="center"
-                android:textSize="12pt"
+                android:textSize="10pt"
                 android:textStyle="bold"></TextView>
 
             <TableLayout
@@ -633,7 +633,7 @@
                 android:layout_marginTop="20dp"
                 android:text="Friday"
                 android:textAlignment="center"
-                android:textSize="12pt"
+                android:textSize="10pt"
                 android:textStyle="bold"></TextView>
 
             <TableLayout
@@ -642,7 +642,6 @@
                 android:layout_marginHorizontal="10dp"
                 android:layout_marginVertical="10dp"
                 android:layout_marginBottom="300dp"
-                android:layout_marginHorizontal="10dp"
                 android:background="@color/Button">
 
                 <!--Table label contents: Time, Teacher, Availability-->
@@ -778,6 +777,7 @@
                 android:id="@+id/signUpForLab"
                 android:layout_width="150dp"
                 android:layout_height="40dp"
+                android:layout_gravity="center"
                 android:layout_marginStart="40dp"
                 android:layout_marginTop="40dp"
                 android:layout_marginEnd="40dp"
@@ -787,12 +787,22 @@
                 android:textColor="@color/Text"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.497"
-                app:layout_constraintStart_toStartOf="parent"
+                               app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.807" />
+                 />
 
         </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="121dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="85dp"
+            android:layout_marginEnd="52dp"
+            app:srcCompat="@drawable/computer_schedule" />
+
 
     </RelativeLayout>
 
