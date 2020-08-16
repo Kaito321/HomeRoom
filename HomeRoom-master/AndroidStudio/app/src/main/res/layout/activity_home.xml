@@ -7,15 +7,7 @@
     android:background="@color/Background"
     tools:context=".Home">
 
-    <!--Messaging Button-->
-
-    <!--Settings Button-->
-
-    <!--Profile Button-->
     <!--Schedule Button-->
-
-    <!--Date-->
-
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/buttonSchedule"
         android:layout_width="wrap_content"
@@ -29,6 +21,7 @@
         app:layout_constraintVertical_bias="0.957"
         app:srcCompat="@drawable/schedule" />
 
+    <!--Profile Button-->
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/buttonProfile"
         android:layout_width="wrap_content"
@@ -42,6 +35,7 @@
         app:layout_constraintVertical_bias="0.957"
         app:srcCompat="@drawable/profile" />
 
+    <!--Settings Button-->
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/buttonSetting"
         android:layout_width="wrap_content"
@@ -55,6 +49,7 @@
         app:layout_constraintVertical_bias="0.957"
         app:srcCompat="@drawable/settings" />
 
+    <!--Messaging Button-->
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/buttonMessage"
         android:layout_width="wrap_content"
@@ -68,6 +63,7 @@
         app:layout_constraintVertical_bias="0.957"
         app:srcCompat="@drawable/message" />
 
+    <!--Date-->
     <TextView
         android:id="@+id/textViewDate"
         android:layout_width="wrap_content"
@@ -83,7 +79,7 @@
         app:layout_constraintVertical_bias="0.21" />
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/welcome"
         android:layout_width="378dp"
         android:layout_height="132dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -94,6 +90,7 @@
         app:layout_constraintVertical_bias="0.026"
         app:srcCompat="@drawable/welcome" />
 
+    <!--Upcoming Events Title-->
     <TextView
         android:id="@+id/upcomingEvents"
         android:layout_width="365dp"
@@ -109,8 +106,10 @@
         app:layout_constraintHorizontal_bias="0.478"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.316" />
+        app:layout_constraintVertical_bias="0.316"
+        tools:ignore="HardcodedText" />
 
+    <!--Virtual Crafting-->
     <TextView
         android:id="@+id/event"
         android:layout_width="364dp"
@@ -128,13 +127,14 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.422" />
 
+<!--Teacher Check Point-->
     <TextView
         android:id="@+id/event2"
         android:layout_width="364dp"
         android:layout_height="33dp"
         android:background="@color/Table_Back"
         android:gravity="center_vertical"
-        android:text="   Virtual Crafting"
+        android:text="   Teacher Check Point Meeting"
         android:textColor="@color/Text"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -144,6 +144,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.468" />
 
+    <!--Labor Day-->
     <TextView
         android:id="@+id/event1"
         android:layout_width="364dp"
@@ -160,6 +161,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.375" />
 
+    <!--Gatsby-->
     <TextView
         android:id="@+id/event3"
         android:layout_width="364dp"
@@ -176,6 +178,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.64" />
 
+    <!--Essay-->
     <TextView
         android:id="@+id/event4"
         android:layout_width="364dp"
@@ -192,6 +195,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.686" />
 
+    <!--Virtual Discussion-->
     <TextView
         android:id="@+id/event5"
         android:layout_width="364dp"
@@ -203,11 +207,12 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintHorizontal_bias="0.468"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.733" />
 
+    <!--Upcoming Assignment-->
     <TextView
         android:id="@+id/upcomingEvents2"
         android:layout_width="365dp"
