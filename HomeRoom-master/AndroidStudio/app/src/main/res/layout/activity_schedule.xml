@@ -3,8 +3,11 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/Background"
+    android:layout_marginBottom="90dp">
+
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -200,8 +203,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="10dp"
-                android:layout_marginVertical="10dp"
-                android:background="#CAC6CF">
+                android:background="@color/Button">
 
                 <!--Table label contents: Time, Teacher, Availability-->
                 <TableRow>
@@ -346,8 +348,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="10dp"
-                android:layout_marginVertical="10dp"
-                android:background="#CAC6CF">
+                android:background="@color/Button">
 
                 <!--Table label contents: Time, Teacher, Availability-->
                 <TableRow>
@@ -493,7 +494,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="10dp"
                 android:layout_marginVertical="10dp"
-                android:background="#CAC6CF">
+                android:background="@color/Button">
+
 
                 <!--Table label contents: Time, Teacher, Availability-->
                 <TableRow>
@@ -640,7 +642,8 @@
                 android:layout_marginHorizontal="10dp"
                 android:layout_marginVertical="10dp"
                 android:layout_marginBottom="300dp"
-                android:background="#CAC6CF">
+                android:layout_marginHorizontal="10dp"
+                android:background="@color/Button">
 
                 <!--Table label contents: Time, Teacher, Availability-->
                 <TableRow>
