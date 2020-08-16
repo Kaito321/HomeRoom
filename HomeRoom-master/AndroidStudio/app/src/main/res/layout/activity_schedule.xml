@@ -13,12 +13,13 @@
         tools:context=".Schedule">
 
         <!--Back button to return to home-->
-
         <com.google.android.material.floatingactionbutton.FloatingActionButton
-            android:id="@+id/floatingActionButton4"
+            android:id="@+id/backButtonSched"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:clickable="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
             app:srcCompat="@drawable/back"
             tools:layout_editor_absoluteX="11dp"
             tools:layout_editor_absoluteY="16dp" />
@@ -29,25 +30,24 @@
 
         </TextView>
 
-        <!--Monday Table-->
-        <TableLayout
-
-
-            <!--Back button to return to home-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/Background">
 
             <!--Monday Table-->
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="30dp"
+                android:layout_marginTop="60dp"
                 android:textSize="12pt"
                 android:text="Monday"
                 android:textAlignment="center"
                 android:textStyle="bold">
 
             </TextView>
-
             <TableLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -597,7 +597,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginVertical="10dp"
-                android:layout_marginBottom="100dp"
+                android:layout_marginBottom="300dp"
                 android:layout_marginHorizontal="10dp"
                 android:background="#CAC6CF">
 
