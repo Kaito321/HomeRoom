@@ -32,9 +32,9 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical"
-            android:background="@color/Background">
+            android:layout_height="941dp"
+            android:background="@color/Background"
+            android:orientation="vertical">
 
             <!--Monday Table-->
 
@@ -42,135 +42,146 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="60dp"
-                android:textSize="12pt"
                 android:text="Monday"
                 android:textAlignment="center"
+                android:textSize="12pt"
                 android:textStyle="bold">
 
             </TextView>
+
             <TableLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginVertical="10dp"
                 android:layout_marginHorizontal="10dp"
+                android:layout_marginVertical="10dp"
                 android:background="@color/Button">
 
                 <!--Table label contents: Time, Teacher, Availability-->
                 <TableRow>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Time:"
-                        android:textStyle="bold"
-                        android:layout_weight="1"
-                        android:textColor="@color/Text"
-                        android:gravity="center"/>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Teacher:"
-                        android:textStyle="bold"
-                        android:layout_weight="1"
-                        android:gravity="center"/>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Availability:"
-                        android:textStyle="bold"
                         android:layout_weight="1"
-                        android:gravity="center"/>
+                        android:gravity="center"
+                        android:text="Time:"
+                        android:textColor="@color/Text"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="Teacher:"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="Availability:"
+                        android:textStyle="bold" />
                 </TableRow>
                 <!--Table content information -->
                 <TableRow>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="9a-12p:"
-                        android:layout_weight="1"
-                        android:gravity="center"
-                        android:background="#FFFFFF"
-                        android:layout_marginBottom="1dp"
-                        android:layout_marginHorizontal="1dp"/>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Mrs.Wagner"
-                        android:layout_weight="1"
-                        android:gravity="center"
-                        android:background="#FFFFFF"
-                        android:layout_marginBottom="1dp"
-                        android:layout_marginHorizontal="1dp"/>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="5"
-                        android:layout_weight="1"
-                        android:gravity="center"
-                        android:background="#FFFFFF"
+                        android:layout_marginHorizontal="1dp"
                         android:layout_marginBottom="1dp"
-                        android:layout_marginHorizontal="1dp"/>
+                        android:layout_weight="1"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:text="9a-12p:" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="1"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:text="Mrs.Wagner" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="1"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:text="5" />
                 </TableRow>
+
                 <TableRow>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="10a-1p:"
-                        android:layout_weight="1"
-                        android:gravity="center"
-                        android:background="#FFFFFF"
-                        android:layout_marginBottom="1dp"
-                        android:layout_marginHorizontal="1dp"/>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Mr.Rogers"
-                        android:layout_weight="1"
-                        android:gravity="center"
-                        android:background="#FFFFFF"
-                        android:layout_marginBottom="1dp"
-                        android:layout_marginHorizontal="1dp"/>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="8"
-                        android:layout_weight="1"
-                        android:gravity="center"
-                        android:background="#FFFFFF"
+                        android:layout_marginHorizontal="1dp"
                         android:layout_marginBottom="1dp"
-                        android:layout_marginHorizontal="1dp"/>
+                        android:layout_weight="1"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:text="10a-1p:" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="1"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:text="Mr.Rogers" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="1"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:text="8" />
                 </TableRow>
+
                 <TableRow>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="2p-5p:"
-                        android:layout_weight="1"
-                        android:gravity="center"
-                        android:background="#FFFFFF"
-                        android:layout_marginBottom="1dp"
-                        android:layout_marginHorizontal="1dp"/>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Ms.Gibli"
-                        android:layout_weight="1"
-                        android:gravity="center"
-                        android:background="#FFFFFF"
-                        android:layout_marginBottom="1dp"
-                        android:layout_marginHorizontal="1dp"/>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="2"
-                        android:layout_weight="1"
-                        android:gravity="center"
-                        android:background="#FFFFFF"
+                        android:layout_marginHorizontal="1dp"
                         android:layout_marginBottom="1dp"
-                        android:layout_marginHorizontal="1dp"/>
+                        android:layout_weight="1"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:text="2p-5p:" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="1"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:text="Ms.Gibli" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="1"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:text="2" />
                 </TableRow>
 
             </TableLayout>
@@ -180,133 +191,143 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                android:textSize="12pt"
                 android:text="Tuesday"
                 android:textAlignment="center"
-                android:textStyle="bold">
-            </TextView>
+                android:textSize="12pt"
+                android:textStyle="bold"></TextView>
+
             <TableLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginVertical="10dp"
                 android:layout_marginHorizontal="10dp"
+                android:layout_marginVertical="10dp"
                 android:background="#CAC6CF">
 
                 <!--Table label contents: Time, Teacher, Availability-->
                 <TableRow>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Time:"
-                        android:textStyle="bold"
-                        android:layout_weight="1"
-                        android:gravity="center"/>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Teacher:"
-                        android:textStyle="bold"
-                        android:layout_weight="1"
-                        android:gravity="center"/>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Availability:"
-                        android:textStyle="bold"
                         android:layout_weight="1"
-                        android:gravity="center"/>
+                        android:gravity="center"
+                        android:text="Time:"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="Teacher:"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="Availability:"
+                        android:textStyle="bold" />
                 </TableRow>
                 <!--Table content information -->
                 <TableRow>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="9a-12p:"
-                        android:layout_weight="1"
-                        android:gravity="center"
-                        android:background="#FFFFFF"
-                        android:layout_marginBottom="1dp"
-                        android:layout_marginHorizontal="1dp"/>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Mrs.Wagner"
-                        android:layout_weight="1"
-                        android:gravity="center"
-                        android:background="#FFFFFF"
-                        android:layout_marginBottom="1dp"
-                        android:layout_marginHorizontal="1dp"/>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="5"
-                        android:layout_weight="1"
-                        android:gravity="center"
-                        android:background="#FFFFFF"
+                        android:layout_marginHorizontal="1dp"
                         android:layout_marginBottom="1dp"
-                        android:layout_marginHorizontal="1dp"/>
+                        android:layout_weight="1"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:text="9a-12p:" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="1"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:text="Mrs.Wagner" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="1"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:text="5" />
                 </TableRow>
+
                 <TableRow>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="10a-1p:"
-                        android:layout_weight="1"
-                        android:gravity="center"
-                        android:background="#FFFFFF"
-                        android:layout_marginBottom="1dp"
-                        android:layout_marginHorizontal="1dp"/>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Mr.Rogers"
-                        android:layout_weight="1"
-                        android:gravity="center"
-                        android:background="#FFFFFF"
-                        android:layout_marginBottom="1dp"
-                        android:layout_marginHorizontal="1dp"/>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="8"
-                        android:layout_weight="1"
-                        android:gravity="center"
-                        android:background="#FFFFFF"
+                        android:layout_marginHorizontal="1dp"
                         android:layout_marginBottom="1dp"
-                        android:layout_marginHorizontal="1dp"/>
+                        android:layout_weight="1"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:text="10a-1p:" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="1"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:text="Mr.Rogers" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="1"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:text="8" />
                 </TableRow>
+
                 <TableRow>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="2p-5p:"
-                        android:layout_weight="1"
-                        android:gravity="center"
-                        android:background="#FFFFFF"
-                        android:layout_marginBottom="1dp"
-                        android:layout_marginHorizontal="1dp"/>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Ms.Gibli"
-                        android:layout_weight="1"
-                        android:gravity="center"
-                        android:background="#FFFFFF"
-                        android:layout_marginBottom="1dp"
-                        android:layout_marginHorizontal="1dp"/>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="2"
-                        android:layout_weight="1"
-                        android:gravity="center"
-                        android:background="#FFFFFF"
+                        android:layout_marginHorizontal="1dp"
                         android:layout_marginBottom="1dp"
-                        android:layout_marginHorizontal="1dp"/>
+                        android:layout_weight="1"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:text="2p-5p:" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="1"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:text="Ms.Gibli" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="1"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:text="2" />
                 </TableRow>
 
             </TableLayout>
@@ -316,133 +337,143 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                android:textSize="12pt"
                 android:text="Wednesday"
                 android:textAlignment="center"
-                android:textStyle="bold">
-            </TextView>
+                android:textSize="12pt"
+                android:textStyle="bold"></TextView>
+
             <TableLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginVertical="10dp"
                 android:layout_marginHorizontal="10dp"
+                android:layout_marginVertical="10dp"
                 android:background="#CAC6CF">
 
                 <!--Table label contents: Time, Teacher, Availability-->
                 <TableRow>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Time:"
-                        android:textStyle="bold"
-                        android:layout_weight="1"
-                        android:gravity="center"/>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Teacher:"
-                        android:textStyle="bold"
-                        android:layout_weight="1"
-                        android:gravity="center"/>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Availability:"
-                        android:textStyle="bold"
                         android:layout_weight="1"
-                        android:gravity="center"/>
+                        android:gravity="center"
+                        android:text="Time:"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="Teacher:"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="Availability:"
+                        android:textStyle="bold" />
                 </TableRow>
                 <!--Table content information -->
                 <TableRow>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="9a-12p:"
-                        android:layout_weight="1"
-                        android:gravity="center"
-                        android:background="#FFFFFF"
-                        android:layout_marginBottom="1dp"
-                        android:layout_marginHorizontal="1dp"/>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Mrs.Wagner"
-                        android:layout_weight="1"
-                        android:gravity="center"
-                        android:background="#FFFFFF"
-                        android:layout_marginBottom="1dp"
-                        android:layout_marginHorizontal="1dp"/>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="5"
-                        android:layout_weight="1"
-                        android:gravity="center"
-                        android:background="#FFFFFF"
+                        android:layout_marginHorizontal="1dp"
                         android:layout_marginBottom="1dp"
-                        android:layout_marginHorizontal="1dp"/>
+                        android:layout_weight="1"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:text="9a-12p:" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="1"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:text="Mrs.Wagner" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="1"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:text="5" />
                 </TableRow>
+
                 <TableRow>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="10a-1p:"
-                        android:layout_weight="1"
-                        android:gravity="center"
-                        android:background="#FFFFFF"
-                        android:layout_marginBottom="1dp"
-                        android:layout_marginHorizontal="1dp"/>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Mr.Rogers"
-                        android:layout_weight="1"
-                        android:gravity="center"
-                        android:background="#FFFFFF"
-                        android:layout_marginBottom="1dp"
-                        android:layout_marginHorizontal="1dp"/>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="8"
-                        android:layout_weight="1"
-                        android:gravity="center"
-                        android:background="#FFFFFF"
+                        android:layout_marginHorizontal="1dp"
                         android:layout_marginBottom="1dp"
-                        android:layout_marginHorizontal="1dp"/>
+                        android:layout_weight="1"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:text="10a-1p:" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="1"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:text="Mr.Rogers" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="1"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:text="8" />
                 </TableRow>
+
                 <TableRow>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="2p-5p:"
-                        android:layout_weight="1"
-                        android:gravity="center"
-                        android:background="#FFFFFF"
-                        android:layout_marginBottom="1dp"
-                        android:layout_marginHorizontal="1dp"/>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Ms.Gibli"
-                        android:layout_weight="1"
-                        android:gravity="center"
-                        android:background="#FFFFFF"
-                        android:layout_marginBottom="1dp"
-                        android:layout_marginHorizontal="1dp"/>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="2"
-                        android:layout_weight="1"
-                        android:gravity="center"
-                        android:background="#FFFFFF"
+                        android:layout_marginHorizontal="1dp"
                         android:layout_marginBottom="1dp"
-                        android:layout_marginHorizontal="1dp"/>
+                        android:layout_weight="1"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:text="2p-5p:" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="1"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:text="Ms.Gibli" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="1"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:text="2" />
                 </TableRow>
 
             </TableLayout>
@@ -452,133 +483,143 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                android:textSize="12pt"
                 android:text="Thursday"
                 android:textAlignment="center"
-                android:textStyle="bold">
-            </TextView>
+                android:textSize="12pt"
+                android:textStyle="bold"></TextView>
+
             <TableLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginVertical="10dp"
                 android:layout_marginHorizontal="10dp"
+                android:layout_marginVertical="10dp"
                 android:background="#CAC6CF">
 
                 <!--Table label contents: Time, Teacher, Availability-->
                 <TableRow>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Thursday"
-                        android:textStyle="bold"
-                        android:layout_weight="1"
-                        android:gravity="center"/>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Teacher:"
-                        android:textStyle="bold"
-                        android:layout_weight="1"
-                        android:gravity="center"/>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Availability:"
-                        android:textStyle="bold"
                         android:layout_weight="1"
-                        android:gravity="center"/>
+                        android:gravity="center"
+                        android:text="Thursday"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="Teacher:"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="Availability:"
+                        android:textStyle="bold" />
                 </TableRow>
                 <!--Table content information -->
                 <TableRow>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="9a-12p:"
-                        android:layout_weight="1"
-                        android:gravity="center"
-                        android:background="#FFFFFF"
-                        android:layout_marginBottom="1dp"
-                        android:layout_marginHorizontal="1dp"/>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Mrs.Wagner"
-                        android:layout_weight="1"
-                        android:gravity="center"
-                        android:background="#FFFFFF"
-                        android:layout_marginBottom="1dp"
-                        android:layout_marginHorizontal="1dp"/>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="5"
-                        android:layout_weight="1"
-                        android:gravity="center"
-                        android:background="#FFFFFF"
+                        android:layout_marginHorizontal="1dp"
                         android:layout_marginBottom="1dp"
-                        android:layout_marginHorizontal="1dp"/>
+                        android:layout_weight="1"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:text="9a-12p:" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="1"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:text="Mrs.Wagner" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="1"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:text="5" />
                 </TableRow>
+
                 <TableRow>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="10a-1p:"
-                        android:layout_weight="1"
-                        android:gravity="center"
-                        android:background="#FFFFFF"
-                        android:layout_marginBottom="1dp"
-                        android:layout_marginHorizontal="1dp"/>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Mr.Rogers"
-                        android:layout_weight="1"
-                        android:gravity="center"
-                        android:background="#FFFFFF"
-                        android:layout_marginBottom="1dp"
-                        android:layout_marginHorizontal="1dp"/>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="8"
-                        android:layout_weight="1"
-                        android:gravity="center"
-                        android:background="#FFFFFF"
+                        android:layout_marginHorizontal="1dp"
                         android:layout_marginBottom="1dp"
-                        android:layout_marginHorizontal="1dp"/>
+                        android:layout_weight="1"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:text="10a-1p:" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="1"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:text="Mr.Rogers" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="1"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:text="8" />
                 </TableRow>
+
                 <TableRow>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="2p-5p:"
-                        android:layout_weight="1"
-                        android:gravity="center"
-                        android:background="#FFFFFF"
-                        android:layout_marginBottom="1dp"
-                        android:layout_marginHorizontal="1dp"/>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Ms.Gibli"
-                        android:layout_weight="1"
-                        android:gravity="center"
-                        android:background="#FFFFFF"
-                        android:layout_marginBottom="1dp"
-                        android:layout_marginHorizontal="1dp"/>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="2"
-                        android:layout_weight="1"
-                        android:gravity="center"
-                        android:background="#FFFFFF"
+                        android:layout_marginHorizontal="1dp"
                         android:layout_marginBottom="1dp"
-                        android:layout_marginHorizontal="1dp"/>
+                        android:layout_weight="1"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:text="2p-5p:" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="1"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:text="Ms.Gibli" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="1"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:text="2" />
                 </TableRow>
 
             </TableLayout>
@@ -588,139 +629,169 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                android:textSize="12pt"
                 android:text="Friday"
                 android:textAlignment="center"
-                android:textStyle="bold">
-            </TextView>
+                android:textSize="12pt"
+                android:textStyle="bold"></TextView>
+
             <TableLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
                 android:layout_marginVertical="10dp"
                 android:layout_marginBottom="300dp"
-                android:layout_marginHorizontal="10dp"
                 android:background="#CAC6CF">
 
                 <!--Table label contents: Time, Teacher, Availability-->
                 <TableRow>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Time:"
-                        android:textStyle="bold"
-                        android:layout_weight="1"
-                        android:gravity="center"/>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Teacher:"
-                        android:textStyle="bold"
-                        android:layout_weight="1"
-                        android:gravity="center"/>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Availability:"
-                        android:textStyle="bold"
                         android:layout_weight="1"
-                        android:gravity="center"/>
+                        android:gravity="center"
+                        android:text="Time:"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="Teacher:"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="Availability:"
+                        android:textStyle="bold" />
                 </TableRow>
                 <!--Table content information -->
                 <TableRow>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="9a-12p:"
-                        android:layout_weight="1"
-                        android:gravity="center"
-                        android:background="#FFFFFF"
-                        android:layout_marginBottom="1dp"
-                        android:layout_marginHorizontal="1dp"/>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Mrs.Wagner"
-                        android:layout_weight="1"
-                        android:gravity="center"
-                        android:background="#FFFFFF"
-                        android:layout_marginBottom="1dp"
-                        android:layout_marginHorizontal="1dp"/>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="5"
-                        android:layout_weight="1"
-                        android:gravity="center"
-                        android:background="#FFFFFF"
+                        android:layout_marginHorizontal="1dp"
                         android:layout_marginBottom="1dp"
-                        android:layout_marginHorizontal="1dp"/>
+                        android:layout_weight="1"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:text="9a-12p:" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="1"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:text="Mrs.Wagner" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="1"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:text="5" />
                 </TableRow>
+
                 <TableRow>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="10a-1p:"
-                        android:layout_weight="1"
-                        android:gravity="center"
-                        android:background="#FFFFFF"
-                        android:layout_marginBottom="1dp"
-                        android:layout_marginHorizontal="1dp"/>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Mr.Rogers"
-                        android:layout_weight="1"
-                        android:gravity="center"
-                        android:background="#FFFFFF"
-                        android:layout_marginBottom="1dp"
-                        android:layout_marginHorizontal="1dp"/>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="8"
-                        android:layout_weight="1"
-                        android:gravity="center"
-                        android:background="#FFFFFF"
+                        android:layout_marginHorizontal="1dp"
                         android:layout_marginBottom="1dp"
-                        android:layout_marginHorizontal="1dp"/>
+                        android:layout_weight="1"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:text="10a-1p:" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="1"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:text="Mr.Rogers" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="1"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:text="8" />
                 </TableRow>
+
                 <TableRow>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="2p-5p:"
-                        android:layout_weight="1"
-                        android:gravity="center"
-                        android:background="#FFFFFF"
-                        android:layout_marginBottom="1dp"
-                        android:layout_marginHorizontal="1dp"/>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Ms.Gibli"
-                        android:layout_weight="1"
-                        android:gravity="center"
-                        android:background="#FFFFFF"
-                        android:layout_marginBottom="1dp"
-                        android:layout_marginHorizontal="1dp"/>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="2"
-                        android:layout_weight="1"
-                        android:gravity="center"
-                        android:background="#FFFFFF"
+                        android:layout_marginHorizontal="1dp"
                         android:layout_marginBottom="1dp"
-                        android:layout_marginHorizontal="1dp"/>
+                        android:layout_weight="1"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:text="2p-5p:" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="1"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:text="Ms.Gibli" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:layout_weight="1"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:text="2" />
                 </TableRow>
 
             </TableLayout>
 
+            <Button
+                android:id="@+id/signUpForLab"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginEnd="40dp"
+                android:layout_marginBottom="40dp"
+                android:background="@drawable/rounded_corners"
+                android:text="Sign Up"
+                android:textColor="@color/Text"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.497"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.807" />
+
         </LinearLayout>
+
     </RelativeLayout>
+
 
 </ScrollView>
