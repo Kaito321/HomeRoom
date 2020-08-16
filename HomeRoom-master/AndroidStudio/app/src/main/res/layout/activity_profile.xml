@@ -11,10 +11,12 @@
 
     <!--Job Title-->
 
+
+
     <ImageView
         android:id="@+id/profile"
-        android:layout_width="315dp"
-        android:layout_height="239dp"
+        android:layout_width="278dp"
+        android:layout_height="235dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -60,7 +62,7 @@
         android:id="@+id/JobTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Phone: "
+        android:text="English Teacher"
         android:textSize="8pt"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -73,14 +75,43 @@
         android:id="@+id/jobTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="English Teacher"
+        android:text="Phone:"
         android:textSize="8pt"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/profile"
         app:layout_constraintVertical_bias="0.569" />
+
+    <TextView
+        android:id="@+id/jobTitle2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email:"
+        android:textSize="8pt"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/profile"
+        app:layout_constraintVertical_bias="0.605" />
+
+    <TextView
+        android:id="@+id/jobTitle3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone:"
+        android:textSize="8pt"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/profile"
+        app:layout_constraintVertical_bias="0.64" />
 
     <TextView
         android:id="@+id/Degree"
@@ -122,6 +153,15 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.976" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:srcCompat="@drawable/back"
+        tools:layout_editor_absoluteX="11dp"
+        tools:layout_editor_absoluteY="16dp" />
 
     <!--School-->
 
