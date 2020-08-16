@@ -17,19 +17,6 @@
     <!--Date-->
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/buttonProfile"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:clickable="true"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.369"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.976"
-        app:srcCompat="@drawable/profile" />
-
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/buttonSchedule"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -39,21 +26,21 @@
         app:layout_constraintHorizontal_bias="0.628"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.976"
+        app:layout_constraintVertical_bias="0.957"
         app:srcCompat="@drawable/schedule" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/buttonMessage"
+        android:id="@+id/buttonProfile"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:clickable="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.109"
+        app:layout_constraintHorizontal_bias="0.369"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.976"
-        app:srcCompat="@drawable/message" />
+        app:layout_constraintVertical_bias="0.957"
+        app:srcCompat="@drawable/profile" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/buttonSetting"
@@ -65,8 +52,21 @@
         app:layout_constraintHorizontal_bias="0.873"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.976"
+        app:layout_constraintVertical_bias="0.957"
         app:srcCompat="@drawable/settings" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/buttonMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.109"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.957"
+        app:srcCompat="@drawable/message" />
 
     <TextView
         android:id="@+id/textViewDate"
@@ -74,11 +74,13 @@
         android:layout_height="wrap_content"
         android:text="Today is Wednesday, August 26, 2020"
         android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/Link"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.186" />
+        app:layout_constraintVertical_bias="0.21" />
 
     <ImageView
         android:id="@+id/imageView3"
@@ -94,43 +96,134 @@
 
     <TextView
         android:id="@+id/upcomingEvents"
-        android:layout_width="369dp"
-        android:layout_height="29dp"
-        android:background="@color/Logo_Roof"
-        android:text="Upcoming Events"
+        android:layout_width="365dp"
+        android:layout_height="45dp"
+        android:background="@color/Text"
         android:gravity="center"
+        android:text="Upcoming Events"
+        android:textColor="@color/Button"
         android:textSize="8pt"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.478"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.262" />
+        app:layout_constraintVertical_bias="0.316" />
+
+    <TextView
+        android:id="@+id/event"
+        android:layout_width="364dp"
+        android:layout_height="33dp"
+        android:layout_margin="1dp"
+        android:background="@color/Table_Back"
+        android:gravity="center_vertical"
+        android:text="   Virtual Crafting"
+        android:textColor="@color/Text"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.468"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.422" />
+
+    <TextView
+        android:id="@+id/event2"
+        android:layout_width="364dp"
+        android:layout_height="33dp"
+        android:background="@color/Table_Back"
+        android:gravity="center_vertical"
+        android:text="   Virtual Crafting"
+        android:textColor="@color/Text"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.468"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.468" />
+
+    <TextView
+        android:id="@+id/event1"
+        android:layout_width="364dp"
+        android:layout_height="33dp"
+        android:background="@color/Table_Back"
+        android:gravity="center_vertical"
+        android:text="   Labor Day"
+        android:textColor="@color/Text"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.468"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.375" />
+
+    <TextView
+        android:id="@+id/event3"
+        android:layout_width="364dp"
+        android:layout_height="33dp"
+        android:background="@color/Table_Back"
+        android:gravity="center_vertical"
+        android:text="   Chapter 1 of Great Gatsby"
+        android:textColor="@color/Text"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.468"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.64" />
+
+    <TextView
+        android:id="@+id/event4"
+        android:layout_width="364dp"
+        android:layout_height="33dp"
+        android:background="@color/Table_Back"
+        android:gravity="center_vertical"
+        android:text="   Essay on Quarentine"
+        android:textColor="@color/Text"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.468"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.686" />
+
+    <TextView
+        android:id="@+id/event5"
+        android:layout_width="364dp"
+        android:layout_height="33dp"
+        android:background="@color/Table_Back"
+        android:gravity="center_vertical"
+        android:text="   Virtual in Class Discussion"
+        android:textColor="@color/Text"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.733" />
+
+    <TextView
+        android:id="@+id/upcomingEvents2"
+        android:layout_width="365dp"
+        android:layout_height="45dp"
+        android:background="@color/Text"
+        android:gravity="center"
+        android:text="Upcoming Assignments"
+        android:textColor="@color/Button"
+        android:textSize="8pt"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.478"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.586" />
 
 
-    <!--
-        <TableRow>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Time:"
-                android:textStyle="bold"
-                android:layout_weight="1"
-                android:gravity="center"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Teacher:"
-                android:textStyle="bold"
-                android:layout_weight="1"
-                android:gravity="center"/>
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Availability:"
-                android:textStyle="bold"
-                android:layout_weight="1"
-                android:gravity="center"/>
-        </TableRow>
-        -->
 </androidx.constraintlayout.widget.ConstraintLayout>
