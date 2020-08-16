@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -7,214 +7,161 @@
     android:background="@color/Background"
     tools:context=".Profile">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <!--Back Button-->
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/ProfBackHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.03"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.023"
+            app:srcCompat="@drawable/back"
+            tools:ignore="MissingConstraints" />
 
-    <!--Back Button-->
-
-    <!--Profile Picture-->
-
-
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/ProfBackHome"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:clickable="true"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.03"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.023"
-        app:srcCompat="@drawable/back"
-        tools:ignore="MissingConstraints" />
-
-    <ImageView
-        android:id="@+id/profile"
-        android:layout_width="278dp"
-        android:layout_height="235dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.004"
-        app:srcCompat="@drawable/profile_wagner" />
+        <!--Profile Picture-->
+        <ImageView
+            android:id="@+id/profile"
+            android:layout_width="match_parent"
+            android:layout_height="235dp"
+            android:textAlignment="center"
+            app:srcCompat="@drawable/profile_wagner" />
 
 
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center">
 
-    <!--Name-->
+            <TextView
+                android:id="@+id/emailAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="wagner@neptune.edu"
+                android:textAlignment="center"
+                android:textSize="8pt" />
+        </ScrollView>
+        <!--Name-->
         <TextView
-        android:id="@+id/Name"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Mrs.Wagner"
-        android:textColor="@color/Text"
-        android:textSize="12pt"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/profile"
-        app:layout_constraintVertical_bias="0.345" />
+            android:id="@+id/Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mrs.Wagner"
+            android:textColor="@color/Text"
+            android:textSize="12pt"
+            android:textStyle="bold"
+            android:textAlignment="center"/>
 
-    <!--Contact-->
-    <TextView
-        android:id="@+id/contact"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Contact"
-        android:textColor="@color/Text"
-        android:textSize="12pt"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/profile"
-        app:layout_constraintVertical_bias="0.526" />
+        <!--Contact-->
+        <TextView
+            android:id="@+id/contact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Contact"
+            android:textColor="@color/Text"
+            android:textSize="12pt"
+            android:textStyle="bold"
+            android:textAlignment="center"/>
 
-    <!--Job Title-->
-    <TextView
-        android:id="@+id/JobTitle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="English Teacher"
-        android:textSize="8pt"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.494"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/profile"
-        app:layout_constraintVertical_bias="0.396" />
-<!--Phone-->
-    <TextView
-        android:id="@+id/phone"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Phone:"
-        android:textSize="8pt"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.338"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/profile"
-        app:layout_constraintVertical_bias="0.569" />
+        <!--Job Title-->
+        <TextView
+            android:id="@+id/JobTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="English Teacher"
+            android:textSize="8pt"
+            android:textAlignment="center" />
+    <!--Phone-->
+        <TextView
+            android:id="@+id/phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Phone:"
+            android:textSize="8pt"
+            android:textStyle="bold"
+            android:textAlignment="center" />
 
-    <!--Phone Number-->
-    <TextView
-        android:id="@+id/phoneNumber"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text=" (123)456-7891"
-        android:textSize="8pt"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.661"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/profile"
-        app:layout_constraintVertical_bias="0.569" />
+        <!--Phone Number-->
+        <TextView
+            android:id="@+id/phoneNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" (123)456-7891"
+            android:textSize="8pt"
+            android:textAlignment="center" />
 
-    <!--Office Hours-->
-    <TextView
-        android:id="@+id/hours"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text=" M,W,F from 7-9 am"
-        android:textSize="8pt"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.661"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/profile"
-        app:layout_constraintVertical_bias="0.64" />
-<!--Email Address-->
-    <TextView
-        android:id="@+id/emailAddress"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text=" wagner@neptune.edu"
-        android:textSize="8pt"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.653"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/profile"
-        app:layout_constraintVertical_bias="0.605" />
+        <!--Office Hours-->
+        <TextView
+            android:id="@+id/hours"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" M,W,F from 7-9 am"
+            android:textSize="8pt"
+            android:textAlignment="center" />
 
-    <!--Email-->
-    <TextView
-        android:id="@+id/email"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Email:"
-        android:textSize="8pt"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.494"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/profile"
-        app:layout_constraintVertical_bias="0.605" />
-<!--Office hours title-->
-    <TextView
-        android:id="@+id/officeHours"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Office Hours"
-        android:textSize="8pt"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.494"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/profile"
-        app:layout_constraintVertical_bias="0.64" />
+        <!--Email Address-->
 
-    <!--Degree-->
-    <TextView
-        android:id="@+id/Degree"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Bachelor of Education from UTSA"
-        android:textSize="8pt"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.492"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/profile"
-        app:layout_constraintVertical_bias="0.467" />
+        <!--Email-->
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email:"
+            android:textSize="8pt"
+            android:textStyle="bold"
+            android:textAlignment="center" />
+    <!--Office hours title-->
+        <TextView
+            android:id="@+id/officeHours"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Office Hours"
+            android:textSize="8pt"
+            android:textStyle="bold"
+            android:textAlignment="center" />
 
-    <!--School-->
-    <TextView
-        android:id="@+id/School"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Neptune High School"
-        android:textSize="8pt"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.493"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.432" />
+        <!--Degree-->
+        <TextView
+            android:id="@+id/Degree"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bachelor of Education from UTSA"
+            android:textSize="8pt"
+            android:textAlignment="center" />
+    
+        <!--School-->
+        <TextView
+            android:id="@+id/School"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Neptune High School"
+            android:textSize="8pt"
+            android:textAlignment="center"/>
 
-    <!--Log off button-->
-    <Button
-        android:id="@+id/toLogInButton"
-        android:layout_width="112dp"
-        android:layout_height="29dp"
-        android:layout_margin="40dp"
-        android:background="@drawable/rounded_corners"
-        android:text="Log Off"
-        android:textColor="@color/Text"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.494"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.984" />
+        <!--Log off button-->
+        <Button
+            android:id="@+id/toLogInButton"
+            android:layout_width="112dp"
+            android:layout_height="29dp"
+            android:layout_margin="40dp"
+            android:background="@drawable/rounded_corners"
+            android:text="Log Off"
+            android:textColor="@color/Text"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.494"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.984" />
+
+    </LinearLayout>
 
 
-
-
-</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
