@@ -37,8 +37,8 @@
     <!--Parent Image-->
     <ImageView
         android:id="@+id/parent"
-        android:layout_width="226dp"
-        android:layout_height="239dp"
+        android:layout_width="223dp"
+        android:layout_height="223dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.475"
@@ -48,19 +48,22 @@
         app:srcCompat="@drawable/parent_communication" />
 
     <!--Teacher Image-->
-    <ImageView
-        android:id="@+id/teachers"
-        android:layout_width="234dp"
-        android:layout_height="284dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.881"
-        app:srcCompat="@drawable/teacher_communication" />
 
     <!--Parent Communication-->
+
+    <!--Teacher Communication-->
+
+    <ImageView
+        android:id="@+id/teachers"
+        android:layout_width="223dp"
+        android:layout_height="267dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.907"
+        app:srcCompat="@drawable/teacher_communication" />
+
     <TextView
         android:id="@+id/parentCommunication"
         android:layout_width="wrap_content"
@@ -72,9 +75,9 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.525" />
 
-    <!--Teacher Communication-->
     <TextView
         android:id="@+id/teacherCommunication"
         android:layout_width="wrap_content"
@@ -85,9 +88,9 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.955" />
+        app:layout_constraintVertical_bias="0.976" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
